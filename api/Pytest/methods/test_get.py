@@ -1,8 +1,8 @@
 import pytest
 
-from api.methods.conftest import base_url
-from api.utils.helpFunctions import verify_product_exists, get_all_products_categories
-from api.utils.requestsFunctions import get_request
+from api.Pytest.methods.conftest import base_url
+from api.Pytest.utils.helpFunctions import verify_product_exists, get_all_products_categories
+from api.Pytest.utils.requestsFunctions import get_request
 
 categories = get_all_products_categories().json()
 

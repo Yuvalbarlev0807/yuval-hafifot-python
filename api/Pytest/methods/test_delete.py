@@ -1,8 +1,8 @@
 import pytest
 
-from api.data.testData import headers
-from api.utils.helpFunctions import verify_product_exists
-from api.utils.requestsFunctions import delete_request
+from api.Pytest.data.testData import headers
+from api.Pytest.utils.helpFunctions import verify_product_exists
+from api.Pytest.utils.requestsFunctions import delete_request
 
 
 @pytest.fixture(scope="module")

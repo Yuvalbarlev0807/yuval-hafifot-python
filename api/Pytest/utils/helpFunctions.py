@@ -1,8 +1,6 @@
-from http.client import responses
-
-from api.data.testData import url
-from api.methods.conftest import base_url
-from api.utils.requestsFunctions import get_request
+from api.Pytest.data.testData import url
+from api.Pytest.methods.conftest import base_url
+from api.Pytest.utils.requestsFunctions import get_request
 
 
 def verify_product_exists(product_id, base_url):

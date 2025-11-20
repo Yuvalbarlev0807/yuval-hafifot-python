@@ -1,6 +1,6 @@
 import pytest
-from api.data.testData import headers
-from api.utils.requestsFunctions import post_request
+from api.Pytest.data.testData import headers
+from api.Pytest.utils.requestsFunctions import post_request
 
 
 @pytest.fixture(scope="module")
