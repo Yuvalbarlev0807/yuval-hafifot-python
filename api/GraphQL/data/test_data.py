@@ -11,3 +11,6 @@ variables_update_post = {
         "body": "changed body"
     }
 }
+variables_delete_post = {
+    "id": 101
+}
