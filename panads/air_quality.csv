@@ -1,0 +1,7 @@
+city,date,pm25,pm10,temperature,bad_air,day_of_the_week
+Tel Aviv,2025-11-27,22,40,28,False,Thursday
+Jerusalem,2025-11-27,18,35,24,False,Thursday
+Haifa,2025-11-27,30,50,26,True,Thursday
+Tel Aviv,2025-11-28,26,45,29,True,Friday
+Jerusalem,2025-11-28,28,48,23,True,Friday
+Haifa,2025-11-28,35,60,25,True,Friday
